@@ -42,9 +42,11 @@
     <div v-if="!mobileCheck()">
       <div class="text-left text-dark textBoxStyle">
         <div class="d-flex flex-row align-items-center justify-content-around">
-          <img class="splashImage" src="..\assets\warhorse.png"/>
+          <img class="splashImage" src="..\assets\warhorse.png" />
           <ul class="p-3 introText mb-5 pb-5">
-            <h2 class="splashTextName text-center">write, write, write </h2>
+            <h2 class="splashTextName text-left" style="color:#CA6902">read,</h2>
+            <h2 class="splashTextName text-left" style="color:#72A4A8">write,</h2>
+            <h2 class="splashTextName text-left" style="color:#543D37">repeat</h2>
             <br />
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
@@ -165,31 +167,15 @@ export default {
   height: 250px;
   margin-top: 10px;
 }
-.slide {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border: solid 1px;
-  height: 100%;
-  width: 32.5%;
-  background: white;
-  transition: transform 0.4s;
-}
-.slide:hover {
-  font-weight: bold;
-}
-.textHeader {
-  background-color: #2196f3;
-  font-size: 32px;
-  font-family: Impact;
-}
+
 .textBoxStyle {
   background-color: white;
 }
 .splashImage {
-    width: 60vw;
+  width: 60vw;
+  height: 100%;
 }
+
 .splashText {
   font-size: 9.5vw;
   font-weight: bold;
@@ -201,7 +187,7 @@ export default {
   font-family: Georgia;
 }
 .splashTextName {
-  font-size: 9.5vw;
+  font-size: 8.5vw;
   font-weight: bold;
   display: flex;
   font-family: Georgia;
@@ -215,7 +201,7 @@ export default {
 }
 .introText {
   width: 40%;
-  height: 90vh;
+  height: 100vh;
   margin-right: 50px;
   overflow: scroll;
   /*

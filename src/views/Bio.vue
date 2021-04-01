@@ -1,92 +1,85 @@
 <template>
-  <div>
-    <div v-if="mobileCheck()">
-      <div class="splashTextMobile">
-        <p class="fade-in1Mobile">C++</p>
-        <p class="fade-in2Mobile">Ruby</p>
-        <p class="fade-in3Mobile">Visual Basic</p>
+  <div class="page_container">
+    <div class="content_container">
+      <!--<div class="d-flex text-center headingText">
+      <div class="d-flex flex-column"> 
+        <p> M </p>
+        <p> A </p>
+        <p> I </p>
+        <p> N </p>
+        <br/> 
+        <p> W </p>
+        <p> O </p>
+        <p> R </p>
+        <p> K </p>
+        <p> S </p>
+      </div> -->
+            <div class="sectionBreaker"></div>
+      <div class="sectionBreaker"></div>
+
+      <div class="gallery">
+        <div class="img-container">
+          <a href="/Alice">
+            <img
+              src="../assets/Alice Poster Style minimal.jpg"
+              alt="Another Alice - A Novel"
+            />
+          </a>
+        </div>
+        <div class="img-container">
+          <a href="/Human">
+            <img
+              src="../assets/human mechanism inlay cover.jpg"
+              alt="the human mechanism - a novel"
+            />
+          </a>
+        </div>
+        <div class="img-container">
+          <img
+            src="../assets/sympathy first cover.jpg"
+            alt="sympathy - a novel"
+          />
+        </div>
+        <div class="img-container">
+          <a
+            href="http://irishliteraryreview.com/fiction/how-to-become-an-astronaut-by-zach-burke"
+            target="blank"
+          >
+            <img
+              src="../assets/How to Become an Astronaut.jpg"
+              alt="short story"
+            />
+          </a>
+        </div>
       </div>
-      <h3>Here is a generic intro sentence.</h3>
-      <br />
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-        placerat ultricies justo a lobortis. Proin ac suscipit sem. Ut dignissim
-        vitae ante ac scelerisque. Nullam ut nisi ligula. Etiam malesuada et
-        risus ut consequat. In eros erat, interdum nec tempus eget, faucibus ac
-        urna. Curabitur tempus placerat sodales.
-      </p>
-      <p>
-        Sed vehicula porta risus non gravida. Etiam et rhoncus lacus. Aliquam
-        nisi mauris, tincidunt nec lectus quis, tempor molestie metus. Duis
-        pulvinar nunc nec leo pharetra, sit amet convallis tortor imperdiet.
-        Cras vel imperdiet libero. Vestibulum vitae mollis dolor. In mattis, mi
-        quis interdum vulputate, ipsum risus malesuada arcu, ut pretium mauris
-        velit ut dolor. Ut condimentum, nunc id facilisis vestibulum, enim
-        mauris pulvinar dui, blandit sodales sapien velit non purus. Curabitur
-        eget euismod lacus.
-      </p>
-      <p>
-        Nunc pharetra, enim in interdum egestas, metus nisi placerat velit, at
-        viverra dolor nulla sit amet sapien. In hac habitasse platea dictumst.
-        Suspendisse potenti. Cras tincidunt eros lectus. Praesent ornare nibh
-        ante, eu porta ligula vestibulum placerat. Etiam commodo tortor sapien,
-        vel malesuada leo sagittis eget. Sed cursus velit quis nunc cursus
-        sagittis. Aliquam maximus elit quis sem pharetra maximus. Morbi arcu
-        ipsum, volutpat sit amet malesuada sit amet, scelerisque non lectus.
-        Nunc metus dolor, pulvinar in fringilla sit amet, convallis pulvinar
-        tortor. Nulla at mauris laoreet, porttitor justo at, ullamcorper diam.
-        Interdum et malesuada fames ac ante ipsum primis in faucibus.
-      </p>
-    </div>
-    <div v-if="!mobileCheck()">
-      <div class="page_container">
-        <div class="content_container">
-          <p class="bannerTitle"> Unpublished Novels </p>
-          <div class="banner">
-            <div class="slide alice">
-              <h2>Another Alice</h2>
-              <p>a novel</p>
-            </div>
-            <div class="slide human_mech">
-              <h2>the human mechanism</h2>
-              <p>a novel</p>
-            </div>
-            <div class="slide empathy">
-              <h2>Empathy</h2>
-              <p>a novel</p>
-            </div>
+      <!--</div>-->
+      <div class="sectionBreaker"></div>
+      <div>
+        <div class="banner">
+          <div class="slide">
+            <h2>I</h2>
+            <p>a short story</p>
           </div>
-          <p class="bannerTitle">Published Short Stories/Poems </p>
-          <div class="banner">
-            <div class="slide alice">
-              <h2>Another Alice</h2>
-              <p>a novel</p>
-            </div>
-            <div class="slide human_mech">
-              <h2>the human mechanism</h2>
-              <p>a novel</p>
-            </div>
-            <div class="slide empathy">
-              <h2>Empathy</h2>
-              <p>a novel</p>
-            </div>
+          <div class="slide">
+            <h2>II</h2>
+            <p>a short story</p>
           </div>
-          <p class="bannerTitle">Other </p>
-          <div class="banner">
-            <div class="slide alice">
-              <h2>Another Alice</h2>
-              <p>a novel</p>
-            </div>
-            <div class="slide human_mech">
-              <h2>the human mechanism</h2>
-              <p>a novel</p>
-            </div>
-            <div class="slide empathy">
-              <h2>Empathy</h2>
-              <p>a novel</p>
-            </div>
+          <div class="slide">
+            <h2>III</h2>
+            <p>a short story</p>
           </div>
-          <div class="footer"></div>
+          <div class="slide">
+            <h2>IV</h2>
+            <p>a poem</p>
+          </div>
+          <div class="slide">
+            <h2>V</h2>
+            <p>a short story</p>
+          </div>
+          <div class="slide">
+            <h2>VI</h2>
+            <p>a polemic</p>
+          </div>
         </div>
       </div>
     </div>
@@ -100,13 +93,7 @@ export default {
       /* eslint-disable */
       slide: 0,
       sliding: null,
-      mobile: false,
     };
-  },
-  created: {
-    function() {
-      this.mobileCheck();
-    },
   },
   methods: {
     onSlideStart(slide) {
@@ -114,12 +101,6 @@ export default {
     },
     onSlideEnd(slide) {
       this.sliding = false;
-    },
-    mobileCheck() {
-      if (window.innerWidth <= 760) {
-        this.mobile = true;
-      }
-      return this.mobile;
     },
   },
 };
@@ -131,43 +112,108 @@ export default {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  width: 750px;
-  height: 250px;
-  margin-top: 10px;
+  width: 90vw;
+  height: 25vh;
+  margin-bottom: 5vh;
 }
-.bannerTitle {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  font-size: 80px;
-  position: sticky;
+
+.sectionBreaker {
+  width: 100%;
+  height: 5vh;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  border-bottom: dashed 1px black;
 }
-.footer {
-  width: 800px;
-  height: 180px;
+
+.sectionHeading {
+  margin-right: 50vw;
+  font-size: 5vh;
+  font-family: "Trebuchet MS";
+  color: black;
 }
+
 .slide {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   border: solid 1px;
-  height: 100%;
-  width: 32.5%;
+  height: 25vh;
+  width: 20vh;
   background: white;
   transition: transform 0.4s;
+  box-shadow: 20px 20px 10px;
 }
+
 .slide:hover {
   font-weight: bold;
 }
-.content_container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100vw;
+
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  height: 60vh;
+  width: 95vw;
+  gap: 2rem;
+  margin-top: 2.5vh;
 }
-.page_container {
-  width: 100vw;
+
+.img-container {
+  overflow: hidden;
+  box-shadow: 10px 10px 10px;
+}
+
+.img-container img {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.3s ease-out;
+  box-shadow: 5px 5px 10px;
+}
+
+.img-container img:hover {
+  transform: scale(1.2);
+}
+
+.modal {
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease-out;
+}
+
+.modal.open {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.full-img {
+  position: absolute;
+  height: 75%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.5);
+  transition: all 0.3s ease-out;
+}
+
+.full-img.open {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.modal p {
+  color: white;
+  font-size: 2rem;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%, -5%);
 }
 </style>

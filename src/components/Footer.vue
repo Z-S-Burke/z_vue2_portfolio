@@ -1,13 +1,16 @@
 <template>
-  <div class="header_style">
+  <div class="footerStyle">
 
   </div>
 </template>
 
 
 <style scoped>
-.header_style {
+.footerStyle {
+/*  bottom: 0;
   width: 100%;
-  background-color: black;
+  height: 5vh;
+  margin-top: 5vh;
+  background-color: black; */
 }
 </style> 
